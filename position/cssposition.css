@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.sguare {
+    width: 100px;
+    height: 100px;
+}
+
+.color_one {
+    background-color: red;
+}
+
+.color_two {
+    background-color: blueviolet;
+}
+
+.color_three {
+    background-color:  green;
+}
+
+.position_one {
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.position_two {
+    position: relative;
+    top: 210px;
+    left: 250px;
+}
+
+.position_three {
+    position: relative;
+    top: 270px;
+    left: 350px;
+}
