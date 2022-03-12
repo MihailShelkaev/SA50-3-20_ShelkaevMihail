@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100vw;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%,
+    #262425 100%);
+    background-color: url(1612494124_12-p-serii-fon-shum-18.png);
+}
