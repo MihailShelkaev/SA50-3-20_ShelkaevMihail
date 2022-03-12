@@ -80,3 +80,36 @@ nav {
     align-items: center;
     color: #FFFFFF;
 }
+
+.navmenu {
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 60px;
+    left: 757px;
+    top: 76 px;
+}
+
+.list {
+    width: 443px;
+    height: 27px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.list_item1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #CDCDCD;
+    transition: 0.3s;
+}
+
+.list_item1:hover {
+    color: #FFFFFF;
+    border-bottom: 3px solid #F1CDB3;
