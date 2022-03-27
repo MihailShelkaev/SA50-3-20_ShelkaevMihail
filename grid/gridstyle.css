@@ -57,3 +57,55 @@ a {
     line-height: 36px;
     color: #000000;
 }
+
+.container {
+    position: absolute;
+    margin:0 auto;
+    left:0;
+    right:0;
+    margin-top: 40px;
+    height: 849px;
+    width: 1310px;
+    display: grid;
+    grid-template-rows:248px 120px 77px 98px 209px;
+    grid-template-columns: 315px 310px 377px 242px;
+    row-gap: 25px;
+    column-gap: 22px;
+    grid-template-areas:"q1 q2 q6 q7"
+                        "q1 q3 q6 q7"
+                        "q4 q3 q6 q7"
+                        "q4 q3 q8 q8"
+                        "q5 q5 q8 q8";
+}
+.p1 {
+    grid-area: q1;
+    background-image: url(img/dZFeVYW-ENE.jpg);
+}
+.p2 {
+    grid-area: q2;
+    background-image: url(img/_LIA-hVjOKg.jpg);
+}
+.p3 {
+    grid-area: q4;
+    background-image: url(img/dDiNgOcxGn4.jpg);
+}
+.p4 {
+    grid-area: q3;
+    background-image: url(img/eDh9Aza081U.jpg);
+}
+.p5 {
+    grid-area: q5;
+    background-image: url(img/dDiNgOcxGn4\ 1.jpg);
+}
+.p6 {
+    grid-area: q6;
+    background-image: url(img/PQCKGMhiqpU\ 1.jpg);
+}
+.p7 {
+    grid-area: q7;
+    background-image: url(img/Khv38I6A-us\ 1.jpg);
+}
+.p8 {
+    grid-area: q8;
+    background-image: url(img/H46P4km2fiY\ 1.jpg);
+}
