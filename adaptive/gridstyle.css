@@ -195,6 +195,9 @@ footer {
             "img8 img8";
     }
 
+    .footer__logos {
+        display: flex;
+    }
 }
 
 .mobile__menu {
