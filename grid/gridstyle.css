@@ -1,0 +1,111 @@
+*    {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 105px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 828px;
+    height: 105px;
+}
+
+.logo__name {
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px;
+    width: 572px;
+}
+
+.menu__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 36px;
+}
+.navigation__style {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.container {
+    position: absolute;
+    margin:0 auto;
+    left:0;
+    right:0;
+    margin-top: 40px;
+    height: 849px;
+    width: 1310px;
+    display: grid;
+    grid-template-rows:248px 120px 77px 98px 209px;
+    grid-template-columns: 315px 310px 377px 242px;
+    row-gap: 25px;
+    column-gap: 22px;
+    grid-template-areas:"q1 q2 q6 q7"
+                        "q1 q3 q6 q7"
+                        "q4 q3 q6 q7"
+                        "q4 q3 q8 q8"
+                        "q5 q5 q8 q8";
+}
+.p1 {
+    grid-area: q1;
+    background-image: url(img/dZFeVYW-ENE.jpg);
+}
+.p2 {
+    grid-area: q2;
+    background-image: url(img/_LIA-hVjOKg.jpg);
+}
+.p3 {
+    grid-area: q4;
+    background-image: url(img/dDiNgOcxGn4.jpg);
+}
+.p4 {
+    grid-area: q3;
+    background-image: url(img/eDh9Aza081U.jpg);
+}
+.p5 {
+    grid-area: q5;
+    background-image: url(img/dDiNgOcxGn4\ 1.jpg);
+}
+.p6 {
+    grid-area: q6;
+    background-image: url(img/PQCKGMhiqpU\ 1.jpg);
+}
+.p7 {
+    grid-area: q7;
+    background-image: url(img/Khv38I6A-us\ 1.jpg);
+}
+.p8 {
+    grid-area: q8;
+    background-image: url(img/H46P4km2fiY\ 1.jpg);
+}
