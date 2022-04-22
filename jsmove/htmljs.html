@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./javascript.js"></script>
     <style>
-        * {
-            padding: 0px;
-            margin: 0px;
-            list-style-type: none;
-        }
-        .square {
-            width: 50px;
-            height: 50px;
-            background-color: red;
-            position: absolute;
-        }
+        #container {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  background-image: url(./img/A3irgZ3W5l79CAl7ftpgvZcpydnjl2tc33KbLTKj2-d1_kFvaDK7dtYZdI-oxqGPbT0hXyrF.jpg);
+}
+        #box {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url(./img/S9w7F4AswSo.png);
+}
     </style>
 </head>
-
 <body>
-    <div id="square" class="square">
-        <script src="./javascript.js">
-        </script>
+    <div id="container">
+        <div id="box"></div>
     </div>
+    <br /><br />
+    <input type="button" value="плодить" onclick="start()">
 </body>
-
 </html>
